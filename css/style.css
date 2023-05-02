@@ -93,3 +93,10 @@
     fontWeight: 'bold';
     textAlign: 'center';
 }
+
+.container: {
+    alignItems: "stretch";
+    justifyContent: "flex-start";
+    margin: number;
+    paddingBottom: number;
+}

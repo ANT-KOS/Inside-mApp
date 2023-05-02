@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import styles from "../../css/style.css";
-import { StyleSheet, Text, View, Dimensions } from "react-native";
+import { Text, View, Dimensions } from "react-native";
 import { Slider } from "@miblanchard/react-native-slider";
 
 import { Accelerometer } from "expo-sensors";
