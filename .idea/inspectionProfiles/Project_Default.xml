@@ -1,10 +1,39 @@
 <component name="InspectionProjectProfileManager">
   <profile version="1.0">
     <option name="myName" value="Project Default" />
+    <inspection_tool class="CssUnknownProperty" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myCustomPropertiesEnabled" value="true" />
+      <option name="myIgnoreVendorSpecificProperties" value="false" />
+      <option name="myCustomPropertiesList">
+        <value>
+          <list size="19">
+            <item index="0" class="java.lang.String" itemvalue="fontsize" />
+            <item index="1" class="java.lang.String" itemvalue="flexwrap" />
+            <item index="2" class="java.lang.String" itemvalue="marginhorizontal" />
+            <item index="3" class="java.lang.String" itemvalue="borderbottomleftradius" />
+            <item index="4" class="java.lang.String" itemvalue="borderbottomrightradius" />
+            <item index="5" class="java.lang.String" itemvalue="backgroundcolor" />
+            <item index="6" class="java.lang.String" itemvalue="fontweight" />
+            <item index="7" class="java.lang.String" itemvalue="textalign" />
+            <item index="8" class="java.lang.String" itemvalue="paddinghorizontal" />
+            <item index="9" class="java.lang.String" itemvalue="borderradius" />
+            <item index="10" class="java.lang.String" itemvalue="alignitems" />
+            <item index="11" class="java.lang.String" itemvalue="justifycontent" />
+            <item index="12" class="java.lang.String" itemvalue="borderstyle" />
+            <item index="13" class="java.lang.String" itemvalue="borderwidth" />
+            <item index="14" class="java.lang.String" itemvalue="bordercolor" />
+            <item index="15" class="java.lang.String" itemvalue="flexdirection" />
+            <item index="16" class="java.lang.String" itemvalue="margintop" />
+            <item index="17" class="java.lang.String" itemvalue="bordertopleftradius" />
+            <item index="18" class="java.lang.String" itemvalue="bordertoprightradius" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
     <inspection_tool class="HtmlUnknownTag" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="myValues">
         <value>
-          <list size="7">
+          <list size="13">
             <item index="0" class="java.lang.String" itemvalue="nobr" />
             <item index="1" class="java.lang.String" itemvalue="noembed" />
             <item index="2" class="java.lang.String" itemvalue="comment" />
@@ -12,6 +41,12 @@
             <item index="4" class="java.lang.String" itemvalue="embed" />
             <item index="5" class="java.lang.String" itemvalue="script" />
             <item index="6" class="java.lang.String" itemvalue="countertext" />
+            <item index="7" class="java.lang.String" itemvalue="counter" />
+            <item index="8" class="java.lang.String" itemvalue="datacontainermiddle" />
+            <item index="9" class="java.lang.String" itemvalue="datacontainer" />
+            <item index="10" class="java.lang.String" itemvalue="titlecontainer" />
+            <item index="11" class="java.lang.String" itemvalue="caret" />
+            <item index="12" class="java.lang.String" itemvalue="buttontext" />
           </list>
         </value>
       </option>
