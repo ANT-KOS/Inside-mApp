@@ -6,29 +6,27 @@ import { Accelerometer } from "expo-sensors";
 import { filter, dotProduct } from "../utils/utilities";
 import { LineChart } from 'react-native-chart-kit';
 
-var lastSent = null;
-var hzMapping = {
+const hzMapping = {
     0: 0.0000000001,
     1: 1,
     2: 5,
     3: 10,
     4: 20,
     5: 50,
-  };
+};
 
 let tempData=[];
 const DATASET_LENGTH = 19;
 
-export default AccelerometerApp = (props) => {
+
+let AccelerometerApp = (props) => {
     //Accelerometer State variables 
     const [filteredData, setFilteredData] = useState([]);
-    const [accel1D, setAccel1D] = useState([]);
-    const [graphData, setGraphData] = useState([]);
+    const [accel1D] = useState([]);
     const [freqValue, setFreqValue] = useState(0);
     const [accelCount, setAccelCount] = useState(0);
 
     const [started, setStarted] = useState(false);
-    const [available, setAvailable] = useState(false);
 
     //Frequency Handler
     const handleValueChange = (value) => {
@@ -54,7 +52,7 @@ export default AccelerometerApp = (props) => {
             
             if(accelCount === DATASET_LENGTH){
               setFilteredData(filter(tempData, {type: "lowPass", freq: 0}));
-              for(var i in filteredData){
+              for(let i in filteredData){
                 accel1D.push(dotProduct(filteredData[i][0], filteredData[i][1]));
               }
               setGraphData(accel1D.splice(-100));
