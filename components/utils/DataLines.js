@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { Text, View, StyleSheet, Dimensions } from 'react-native'
+import styles from '../../css/style.css';
+import { Text, View, Dimensions } from 'react-native';
 import { LineChart } from 'react-native-chart-kit';
 
 // Will call <DataLines x= y= z= />
@@ -102,60 +103,3 @@ export default class DataLines extends React.Component {
         );
     }
 }
-
-const styles = StyleSheet.create({
-    titleContainer: {
-        alignItems: 'center',
-        justifyContent: 'center',
-        padding: 5,
-        marginHorizontal: 10,
-        backgroundColor: "#6dbe93",
-        elevation: 10,
-        borderTopLeftRadius: 20,
-        borderTopRightRadius: 20,
-        flexDirection: 'row',
-        flexWrap: 'wrap',
-    },
-    title: {
-        fontSize: 14,
-        fontWeight: 'bold',
-        textAlign: 'center',
-        color: "#ffffff",
-        flex: 4
-    },
-    dataContainer: {
-        alignItems: 'center',
-        justifyContent: 'center',
-        flexDirection: 'row',
-        flexWrap: 'wrap',
-        marginHorizontal: 20,
-        borderBottomLeftRadius: 20,
-        borderBottomRightRadius: 20,
-        backgroundColor: "white",
-        padding: 0,
-    },
-    text: {
-        textAlign: 'center',
-    },
-    counter: {
-        marginHorizontal: 10,
-        paddingHorizontal: 0,
-        backgroundColor: '#344763',
-        borderRadius: 10,
-        flex: 1,
-        width: 20,
-        elevation: 10
-    },
-    caret: {
-        marginHorizontal: 10,
-        paddingHorizontal: 0,
-        flex: 1,
-        width: 20
-    },
-    counterText: {
-        color: '#ffffff',
-        fontSize: 11,
-        fontWeight: 'bold',
-        textAlign: 'center',
-    },
-});

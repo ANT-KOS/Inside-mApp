@@ -1,4 +1,4 @@
-titleContainer {
+.titleContainer {
     alignItems: 'center';
     justifyContent: 'center';
     padding: 5;
@@ -12,7 +12,7 @@ titleContainer {
     flexWrap: 'wrap';
 }
 
-title {
+.title {
     fontSize: 14;
     fontWeight: 'bold';
     textAlign: 'center';
@@ -20,7 +20,7 @@ title {
     flex: 4;
 }
 
-dataContainer {
+.dataContainer {
     alignItems: 'center';
     justifyContent: 'center';
     flexDirection: 'row';
@@ -29,26 +29,26 @@ dataContainer {
     borderBottomLeftRadius: 20;
     borderBottomRightRadius: 20;
     backgroundColor: "white";
-    padding-left: 4px;
+    padding: 0;
 }
 
-dataContainerMiddle {
+.dataContainerMiddle {
     alignItems: 'center';
     justifyContent: 'center';
     flexDirection: 'row';
     flexWrap: 'wrap';
     marginHorizontal: 20;
     backgroundColor: "white";
-    padding-left: 5px;
+    padding: 5;
 }
 
-text {
+.text {
     textAlign: 'center';
     flex: 1;
     fontWeight: "bold";
 }
 
-counter {
+.counter {
     marginHorizontal: 10;
     paddingHorizontal: 0;
     backgroundColor: '#344763';
@@ -58,7 +58,7 @@ counter {
     elevation: 10;
 }
 
-button {
+.button {
     marginHorizontal: 10;
     backgroundColor: 'white';
     alignItems: 'center';
@@ -73,21 +73,21 @@ button {
     elevation: 5;
 }
 
-buttonText {
+.buttonText {
     color: '#344763';
     fontSize: 11;
     fontWeight: 'bold';
     textAlign: 'center';
 }
 
-caret {
+.caret {
     marginHorizontal: 10;
     paddingHorizontal: 0;
     flex: 1;
     width: 20;
 }
 
-counterText {
+.counterText {
     color: '#ffffff';
     fontSize: 11;
     fontWeight: 'bold';

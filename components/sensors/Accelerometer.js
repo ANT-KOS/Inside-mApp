@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import styles from "../../css/style.css";
 import { StyleSheet, Text, View, Dimensions } from "react-native";
 import { Slider } from "@miblanchard/react-native-slider";
 
@@ -128,92 +129,3 @@ let AccelerometerApp = (props) => {
         </View>
     );
 }
-
-const styles = StyleSheet.create({
-    titleContainer: {
-      alignItems: 'center',
-      justifyContent: 'center',
-      padding: 5,
-      marginHorizontal: 20,
-      marginTop: 20,
-      backgroundColor: "#ffcf1b",
-      elevation: 10,
-      borderTopLeftRadius: 20,
-      borderTopRightRadius: 20,
-      flexDirection: 'row',
-      flexWrap: 'wrap',
-    },
-    title: {
-      fontSize: 14,
-      fontWeight: 'bold',
-      textAlign: 'center',
-      color: "#ffffff",
-      flex: 4
-    },
-    dataContainer: {
-      alignItems: 'center',
-      justifyContent: 'center',
-      flexDirection: 'row',
-      flexWrap: 'wrap',
-      marginHorizontal: 20,
-      borderBottomLeftRadius: 20,
-      borderBottomRightRadius: 20,
-      backgroundColor: "white",
-      padding: 10,
-    },
-    dataContainerMiddle: {
-      alignItems: 'center',
-      justifyContent: 'center',
-      flexDirection: 'row',
-      flexWrap: 'wrap',
-      marginHorizontal: 20,
-      backgroundColor: "white",
-      padding: 5,
-    },
-    text: {
-      textAlign: 'center',
-      flex: 1,
-      fontWeight: "bold"
-    },
-    counter: {
-      marginHorizontal: 10,
-      paddingHorizontal: 0,
-      backgroundColor: '#344763',
-      borderRadius: 10,
-      flex: 1,
-      width: 20,
-      elevation: 10
-    },
-    button: {
-      marginHorizontal: 10,
-      backgroundColor: 'white',
-      alignItems: 'center',
-      justifyContent: 'center',
-      borderRadius: 20,
-      borderStyle: 'solid',
-      borderWidth: 1,
-      borderColor: "black",
-      flex: 1,
-      width: 40,
-      height: 40,
-      elevation: 5
-    },
-    buttonText: {
-      color: '#344763',
-      fontSize: 11,
-      fontWeight: 'bold',
-      textAlign: 'center',
-    },
-    caret: {
-      marginHorizontal: 10,
-      paddingHorizontal: 0,
-      flex: 1,
-      width: 20
-    },
-    counterText: {
-      color: '#ffffff',
-      fontSize: 11,
-      fontWeight: 'bold',
-      textAlign: 'center',
-    },
-  });
