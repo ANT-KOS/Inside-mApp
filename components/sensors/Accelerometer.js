@@ -5,7 +5,6 @@ import { Slider } from "@miblanchard/react-native-slider";
 import { Accelerometer } from "expo-sensors";
 import { filter, dotProduct } from "../utils/utilities";
 import { LineChart } from 'react-native-chart-kit';
-import DataLines from "../utils/DataLines";
 
 var lastSent = null;
 var hzMapping = {

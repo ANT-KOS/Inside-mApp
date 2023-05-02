@@ -4,13 +4,10 @@
     3) heading estimation
 */
 
-import React, { useState, useEffect, useReducer } from "react";
-import { StyleSheet, Text, View, Dimensions, AppState, TouchableOpacity } from "react-native";
-import { Slider } from "@miblanchard/react-native-slider";
+import React, { useState, useEffect } from "react";
+import { StyleSheet, Text, View, TouchableOpacity } from "react-native";
 
 import { Accelerometer, Gyroscope } from "expo-sensors";
-import { filter, dotProduct } from "../utils/utilities"; 
-import Button from "../utils/Button";
 import { isRejectedWithValue } from "@reduxjs/toolkit";
 
 const _freqUpdate = 200;

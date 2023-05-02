@@ -14,18 +14,11 @@
   Unpublished Work © 2023 Minas Kosmidis
 */
 
-import React, { useState } from 'react';
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, ViewBase,} from 'react-native';
-import Button from './components/utils/Button';
-import { NavigationContainer } from '@react-navigation/native';
-import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+import React from 'react';
+import { StyleSheet,} from 'react-native';
 
 // Sensors
-import AccelerometerApp from './components/sensors/Accelerometer';
 import PDRApp from './components/PDR/pedestrianDeadReckoning'; 
-import GyroscopeApp from './components/sensors/Gyroscope';
-import PedApp from './components/sensors/Pedometer';
 
 export default function App() {
   return(
